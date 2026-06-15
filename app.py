@@ -108,7 +108,6 @@ def procesar_historial_kaggle(df_maestro):
 df_master = procesar_historial_kaggle(df_master)
 
 # Instalar la librería en tu celda de Colab
-!pip install statsbombpy -q
 from statsbombpy import sb
 
 def extraer_metricas_statsbomb(df_maestro):
