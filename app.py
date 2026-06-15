@@ -12,7 +12,6 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 # 2. Instalar StatsBomb
-!pip install statsbombpy
 from statsbombpy import sb
 import pandas as pd
 import numpy as np
